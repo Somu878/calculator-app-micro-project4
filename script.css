@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #647299;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-area {
+    background-color: #181F32;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 593px;
+    height: 143px;
+}
+
+.output {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 150px;
+    color: #ffffff;
+    text-align: right;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: #252D44;
+    width: 536px;
+    height: 487px;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 40px 40px 40px 40px;
+    border-radius: 12px;
+}
+
+.element {
+    background-color: #EAE3DB;
+    border: none;
+    font-family: ;
+    border-radius: 12px;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    cursor: pointer;
+    color: #3B4664;
+}
+
+.element:hover {
+    background-color: #7FBEEB;
+}
+
+.del {
+    background-color: #647299;
+    color: #ffffff;
+}
+
+.reset {
+    grid-column: span 2;
+    background-color: #647299;
+    color: white;
+}
+
+.equals {
+    grid-column: span 2;
+    background-color: #D13F30;
+    color: white;
+}
