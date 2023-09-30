@@ -11,7 +11,7 @@ A simple calculator web application built with HTML, CSS, and JavaScript.
 
 ## How to Use
 
-Just open `index.html` in your browser and start calculating!
+Just open `(https://calculater-micro-project4.netlify.app/)` in your browser and start calculating!
 
 ## Installation
 
