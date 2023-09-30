@@ -9,9 +9,8 @@ A simple calculator web application built with HTML, CSS, and JavaScript.
 - Reset button to clear the input.
 - Responsive design for mobile and desktop.
 
-## How to Use
-
-Just open `(https://calculater-micro-project4.netlify.app/)` in your browser and start calculating!
+## Live Demo
+Experience the Calculator App in action: [Calculator App on Netlify](https://calculater-micro-project4.netlify.app/)
 
 ## Installation
 
