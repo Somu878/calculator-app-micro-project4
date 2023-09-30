@@ -5,12 +5,16 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #647299;
+    font-size: 16px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .input-area {
@@ -50,7 +54,6 @@ body {
 .element {
     background-color: #EAE3DB;
     border: none;
-    font-family: ;
     border-radius: 12px;
     font-size: 30px;
     font-weight: 700;
@@ -61,9 +64,6 @@ body {
     color: #3B4664;
 }
 
-.element:hover {
-    background-color: #7FBEEB;
-}
 
 .del {
     background-color: #647299;
@@ -80,4 +80,11 @@ body {
     grid-column: span 2;
     background-color: #D13F30;
     color: white;
+}
+.title{
+    align-self: flex-start;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-family: 'inter';
+    
 }
