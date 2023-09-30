@@ -17,8 +17,6 @@ buttons.forEach(button => {
         else if(btext==='='){
            let res= output.innerText.replace(/x/g, '*');
            output.innerText=eval(res)
-           //limiting maximum digits to 3 afterr decimal point
-           output.innerText = parseFloat(res).toFixed(3);
         }
         else{
             output.innerText += btext;
