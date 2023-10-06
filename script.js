@@ -33,7 +33,7 @@ function deleteDisplay() {
 
 //function to reset display
 function resetDisplay() {
-  output.innerText = "0";
+  output.innerText = "";
 }
 
 //function to calculate result
