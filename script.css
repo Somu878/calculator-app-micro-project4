@@ -27,15 +27,16 @@ body {
 }
 
 .output {
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 150px;
-    color: #ffffff;
+    background-color: #181f32;
+    height: 75%;
+    border: none;
+    width: 95%;
+    box-shadow: none;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
     text-align: right;
-    width: 100%;
-    margin-bottom: 10px;
 }
 
 .buttons {
@@ -81,9 +82,9 @@ body {
     background-color: #D13F30;
     color: white;
 }
-/* .title{
+.title{
     align-self: flex-start;
     margin-bottom: 10px;
     font-size: 28px;
-    font-family: 'inter';
-} */
+    font-family: 'inter'; 
+}

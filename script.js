@@ -22,28 +22,28 @@ buttons.forEach((button) => {
     else if (btext === "=") {
       calculate();
     } else {
-      output.innerText += btext;
+      output.value += btext;
     }
   });
 });
 //function to delete last input value
 function deleteDisplay() {
-  output.innerText = output.innerText.slice(0, -1);
+  output.value = output.value.slice(0, -1);
 }
 
 //function to reset display
 function resetDisplay() {
-  output.innerText = "";
+  output.value = "";
 }
 
 //function to calculate result
 function calculate() {
-  let res = output.innerText.replace(/x/g, "*");
+  let res = output.value.replace(/x/g, "*");
   let result = eval(res);
   // Check if the result is a floating-point number
   if (Number.isFinite(result) && result % 1 !== 0) {
     result = result.toFixed(3);
   }
-  output.innerText = result;
+  output.value = result;
   resDisplayed = true;
 }
